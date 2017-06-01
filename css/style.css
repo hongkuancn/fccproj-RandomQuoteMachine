@@ -1,0 +1,35 @@
+body{
+    background:#808080;
+
+    transition: background 0.9s;
+}
+
+#content{
+    margin:100px auto;
+    background:#FFFFFF;
+    width:500px;
+    border-radius:5px;
+    padding:10px 20px;
+}
+
+blockquote{
+    margin:0 10px 50px;
+    color:#808080;
+    font-size: 1.2 em;
+    font-family:"Helvetica","Arial",sans-serif;
+
+
+    transition: color 0.9s;
+}
+
+#tweet{
+    float:right;
+}
+
+button{
+    color:#FFF;
+}
+
+.none{
+    display:none;
+}
