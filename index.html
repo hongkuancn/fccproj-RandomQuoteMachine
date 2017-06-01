@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Random Quote Machine</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-<div id="content">
-    <blockquote class="show"><p>Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.</p><footer>-- Mark Twain</footer></blockquote>
-    <blockquote class="none"><p>The programmer must seek both perfection of part and adequacy of collection.</p><footer>-- Alan J. Perlis</footer></blockquote>
-    <blockquote class="none"><p>Premature optimization is the root of all evil (or at least most of it) in programming.</p><footer>-- Donald Knuth</footer></blockquote>
-    <blockquote class="none"><p>Don't worry about what anybody else is going to do. The best way to predict the future is to invent it.</p><footer>-- Alan Kay</footer></blockquote>
-    <div>
-        <button type="button" id="newquote" class="btn">New Quote</button>
-        <button type="button" id="tweet" class="btn">Tweet</button>
+    <div id="content" class="center-block">
+        <blockquote>
+            <p>Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.</p>
+            <footer>Mark Twain</footer>
+        </blockquote>
+        <div>
+            <button type="button" id="newquote" class="btn">New Quote</button>
+            <button type="button" id="tweet" class="btn">Tweet</button>
+        </div>
     </div>
-</div>
+    <div id="author">
+        <p class="text-center">BY Hongkuan</p>
+    </div>
+
+    <!-- jQuery -->
+    <script   src="js/jquery.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="js/bootstrap.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>

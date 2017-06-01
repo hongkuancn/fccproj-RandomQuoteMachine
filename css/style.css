@@ -1,35 +1,40 @@
-body{
-    background:#808080;
+body {
+    background-color: #808080;
 
-    transition: background 0.9s;
+    transition: background-color 1s;
 }
 
-#content{
-    margin:100px auto;
-    background:#FFFFFF;
-    width:500px;
-    border-radius:5px;
-    padding:10px 20px;
+#content {
+    margin-top: 100px;
+    background-color: #FFFFFF;
+    width: 500px;
+    border-radius: 5px;
+    padding: 20px 30px;
 }
 
-blockquote{
-    margin:0 10px 50px;
-    color:#808080;
-    font-size: 1.2 em;
-    font-family:"Helvetica","Arial",sans-serif;
-
-
-    transition: color 0.9s;
+blockquote {
+    margin: 0px 10px 50px;
+    font-size: 20px;
+    font-family: "Helvetica","Arial",sans-serif;
+    border-left: 0px;
 }
 
-#tweet{
-    float:right;
+blockquote p,footer {
+    color: #808080;
+
+    transition: color 1s;
 }
 
-button{
-    color:#FFF;
+button {
+    background-color:#808080;
+    color: #FFFFFF;
 }
 
-.none{
-    display:none;
+#tweet {
+    float: right;
+}
+
+#author p{
+    color: #FFFFFF;
+    margin-top: 10px;
 }
