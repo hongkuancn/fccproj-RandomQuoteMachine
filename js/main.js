@@ -9,7 +9,7 @@ $(document).ready(function() {
         a = Math.floor(Math.random()*102+0);
         b = Math.floor(Math.random()*3+0);
 
-        //avoid same quote or color
+        //avoid the same quote or color as before
         if (a !== c && b !== d){
 
             $.getJSON(quoteLink,function(data){
@@ -27,16 +27,14 @@ $(document).ready(function() {
                 $("blockquote>p").css("color",colors[b]);
                 $("blockquote>footer").css("color",colors[b]);
                 d = b;
+
+                var txt = encodeURIComponent(data[a].quote+"--"+data[a].name);
+                $("#tweet").parent().attr("href","https://twitter.com/intent/tweet?text="+txt);
             })
         }else {
             $("#newquote").triggerHandler('click');
         }
     })
-
-    $("#tweet").click(function(){
-
-    })
-
 });
 
 
