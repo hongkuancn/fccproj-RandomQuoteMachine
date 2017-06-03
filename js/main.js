@@ -28,6 +28,7 @@ $(document).ready(function() {
                 $("blockquote>footer").css("color",colors[b]);
                 d = b;
 
+                // change tweet content
                 var txt = encodeURIComponent(data[a].quote+"--"+data[a].name);
                 $("#tweet").parent().attr("href","https://twitter.com/intent/tweet?text="+txt);
             })
